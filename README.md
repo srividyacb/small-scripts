@@ -3,7 +3,7 @@
 
 #### Split featureCollection into different `geojson`
 
-[`features-split.js`]()
+[`features-split.js`](https://github.com/srividyacb/small-scripts/blob/master/features-split.js)
 
 Takes input `GEOJSON` and output multiple GEOJSON files with specified number of features.
 
