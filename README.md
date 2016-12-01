@@ -1,8 +1,10 @@
 ## small-scripts
 
-### Install
+### Install dependencies
 
-
+```
+npm install
+```
 
 #### Split featureCollection into different `geojson`
 
