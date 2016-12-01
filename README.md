@@ -1,5 +1,8 @@
 ## small-scripts
 
+### Install
+
+
 
 #### Split featureCollection into different `geojson`
 

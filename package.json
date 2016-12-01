@@ -1,0 +1,27 @@
+{
+  "name": "small-scripts",
+  "version": "1.0.0",
+  "description": "### Install",
+  "main": "features-split.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srividyacb/small-scripts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srividyacb/small-scripts/issues"
+  },
+  "homepage": "https://github.com/srividyacb/small-scripts#readme",
+  "dependencies": {
+    "concat-stream": "^1.5.2",
+    "fs": "0.0.1-security",
+    "geojson-stream": "0.0.1",
+    "minimist": "^1.2.0",
+    "turf": "^3.0.14",
+    "turf-line-distance": "^3.0.12"
+  }
+}
