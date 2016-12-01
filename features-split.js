@@ -19,6 +19,6 @@ fs.createReadStream(file)
           var fc = turf.featureCollection(splicedFeatures);
           fs.writeFile('file' + i + '.geojson', JSON.stringify(fc), function (err) {
             if (err) throw err;
-            console.log('It\'s saved!');
+            console.log('file created and saved!');
           });
 }}));
