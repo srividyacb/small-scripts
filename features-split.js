@@ -17,7 +17,7 @@ fs.createReadStream(file)
         for (var i = 0; i <= maxFiles; i++) {
           var splicedFeatures = allTR.splice(0, number);
           var fc = turf.featureCollection(splicedFeatures);
-          fs.writeFile('file' + i + '.geojson', JSON.stringify(fc), function (err) {
+          fs.writeFile(number + '-' + i + '.geojson', JSON.stringify(fc), function (err) {
             if (err) throw err;
             console.log('file created and saved!');
           });
